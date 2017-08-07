@@ -1,0 +1,18 @@
+USE ChineseStudy
+GO
+
+DROP TABLE IF EXISTS
+dbo._3000_Characters;
+GO
+
+CREATE TABLE dbo._3000_Characters
+(ID int NOT NULL PRIMARY KEY IDENTITY (1,1),
+FEseq varchar(255),
+Zhuyin varchar(255),
+Traditional varchar(255),
+English varchar(255),
+Numpinyin varchar(255),
+CritPinyin varchar(255),
+Simplified varchar(255),
+Cji varchar(255));
+GO
